@@ -10,7 +10,7 @@ documentation for more details.
 
 """
 module BEDMatrices1.0
-using using LinearAlgebra.apxy!
+using LinearAlgebra.apxy!
 
 module Consts
 include("constants.jl")
