@@ -10,7 +10,8 @@ documentation for more details.
 
 """
 module BEDMatrices1.0
-using LinearAlgebra.axpy!
+using Pkg
+using LinearAlgebra
 
 module Consts
 include("constants.jl")
