@@ -14,6 +14,8 @@ using Pkg
 using LinearAlgebra
 
 module Consts
+using Pkg
+using LinearAlgebra
 include("constants.jl")
 end
 
