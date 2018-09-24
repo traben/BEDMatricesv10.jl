@@ -142,7 +142,7 @@ function getbytemap{T}(quartermap::Tuple{T, T, T, T})
                      rawformat((byte & 0b11_00_00_00) >> 6, quartermap)) for
                     byte in Consts.flipBEDbytes])
 
-   $bytemap
+   bytemap
 end
 
 
